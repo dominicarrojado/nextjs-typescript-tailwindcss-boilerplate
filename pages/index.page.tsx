@@ -11,7 +11,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className="flex flex-col justify-center items-center min-h-screen py-16">
+      <main className="flex flex-col justify-center items-center min-h-screen pt-16">
         <h1 className="text-center text-6xl">
           Welcome to{' '}
           <a
@@ -71,6 +71,16 @@ const Home: NextPage = () => {
           </a>
         </div>
       </main>
+
+      <section className="max-w-full mx-auto pt-6 pb-8 text-center text-lg sm:max-w-lg md:pt-0">
+        <a
+          href="https://dominicarrojado.com/posts/how-to-create-your-own-otp-input-in-react-and-typescript-with-tests-part-1/"
+          className="underline text-gray-600 hover:text-gray-800 transition-colors"
+        >
+          Learn how to set up a local development for Next.js projects with
+          TypeScript and TailwindCSS
+        </a>
+      </section>
 
       <footer className="flex flex-1 justify-center items-center py-8 border-t border-slate-200">
         <a
