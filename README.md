@@ -1,6 +1,6 @@
 # Next.js Boilerplate (TypeScript, TailwindCSS)
 
-[![CI/CD](https://github.com/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate/actions/workflows/ci.yml)
+[![CI/CD](https://github.com/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate/branch/main/graph/badge.svg?token=NnQcGFOMPb)](https://codecov.io/gh/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate)
 
 A local development setup or boilerplate for [Next.js](https://nextjs.org/) with [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
