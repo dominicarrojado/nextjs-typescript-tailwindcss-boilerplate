@@ -1,4 +1,4 @@
-# Next.js Boilerplate (TypeSript, TailwindCSS)
+# Next.js Boilerplate (TypeScript, TailwindCSS)
 
 [![CI/CD](https://github.com/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate/actions/workflows/ci.yml)
 
