@@ -1,34 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Boilerplate (TypeSript, TailwindCSS)
 
-## Getting Started
+[![CI/CD](https://github.com/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate/actions/workflows/ci.yml/badge.svg)](https://github.com/dominicarrojado/nextjs-typescript-tailwindcss-boilerplate/actions/workflows/ci.yml)
 
-First, run the development server:
+A local development setup or boilerplate for [Next.js](https://nextjs.org/) with [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
+
+## Quick Start
+
+1. Install [Yarn](https://yarnpkg.com/lang/en/docs/install/).
+2. Clone the app:
 
 ```bash
-npm run dev
-# or
+git clone git@github.com:dominicarrojado/nextjs-typescript-tailwindcss-boilerplate.git
+```
+
+3. Install dependencies:
+
+```bash
+cd nextjs-typescript-tailwindcss-boilerplate
+yarn install
+```
+
+4. Run the development server:
+
+```bash
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Running All Tests
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+```bash
+yarn test
+```
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Running Tests (Watch)
 
-## Learn More
+```bash
+yarn test:watch
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Build For Production (Static)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Build and generate static files:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```bash
+yarn build
+yarn export
+```
 
-## Deploy on Vercel
+2. The `out` directory can be served by any static hosting service or CDN.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## VSCode Extensions
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Tailwind CSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+## Learn
+
+Learn how to build this setup or boilerplate [here](https://dominicarrojado.com/posts/local-development-setup-for-nextjs-typescript-and-tailwindcss-projects/).
