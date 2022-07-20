@@ -1,5 +1,5 @@
 {
-  "name": "my-app",
+  "name": "nextjs-typescript-tailwindcss-boilerplate",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "export": "next export",
     "test": "jest --coverage",
-    "test:watch": "jest --coverage --watch"
+    "test:watch": "jest --coverage --watch",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "next": "12.2.2",
