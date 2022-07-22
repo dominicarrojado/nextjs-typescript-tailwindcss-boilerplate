@@ -9,8 +9,7 @@
     "lint": "next lint",
     "export": "next export",
     "test": "jest --coverage",
-    "test:watch": "jest --coverage --watch",
-    "deploy": "gh-pages -d out"
+    "test:watch": "jest --coverage --watch"
   },
   "dependencies": {
     "next": "12.2.2",
