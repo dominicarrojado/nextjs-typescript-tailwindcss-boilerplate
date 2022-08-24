@@ -74,7 +74,7 @@ const Home: NextPage = () => {
 
       <section className="max-w-full mx-auto pt-6 pb-8 text-center text-lg sm:max-w-lg md:pt-0">
         <a
-          href="https://dominicarrojado.com/posts/how-to-create-your-own-otp-input-in-react-and-typescript-with-tests-part-1/"
+          href="https://dominicarrojado.com/posts/local-development-setup-for-nextjs-typescript-and-tailwindcss-projects/"
           className="underline text-gray-600 hover:text-gray-800 transition-colors"
         >
           Learn how to set up a local development for Next.js projects with
